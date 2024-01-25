@@ -267,13 +267,15 @@
     <Content Include="assets\js\vendor\jquery-1.12.4.min.js" />
     <Content Include="assets\js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="assets\js\wow.min.js" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Package.aspx" />
+    <Content Include="Gallery.aspx" />
     <Content Include="Blog.aspx" />
+    <Content Include="Package.aspx" />
     <Content Include="Pages.aspx" />
     <Content Include="AboutUs.aspx" />
     <Content Include="favicon.ico" />
@@ -327,7 +329,7 @@
     <Content Include="assets\scss\_testimonial.scss" />
     <Content Include="assets\scss\_variables.scss" />
     <Content Include="assets\scss\_video-area.scss" />
-    <Content Include="FooterPage.Master" />
+    <Content Include="BottomPage.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -364,12 +366,26 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Package.aspx.cs">
-      <DependentUpon>Package.aspx</DependentUpon>
+    <Compile Include="BottomPage.Master.cs">
+      <DependentUpon>BottomPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Package.aspx.designer.cs">
-      <DependentUpon>Package.aspx</DependentUpon>
+    <Compile Include="BottomPage.Master.designer.cs">
+      <DependentUpon>BottomPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Blog.aspx.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
@@ -377,6 +393,13 @@
     </Compile>
     <Compile Include="Blog.aspx.designer.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Package.aspx.cs">
+      <DependentUpon>Package.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Package.aspx.designer.cs">
+      <DependentUpon>Package.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages.aspx.cs">
       <DependentUpon>Pages.aspx</DependentUpon>
@@ -391,13 +414,6 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FooterPage.Master.cs">
-      <DependentUpon>FooterPage.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FooterPage.Master.designer.cs">
-      <DependentUpon>FooterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

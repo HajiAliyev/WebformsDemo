@@ -11,7 +11,7 @@ namespace WebformsDemo
 {
 
 
-    public partial class Blog
+    public partial class ContactUs
     {
     }
 }

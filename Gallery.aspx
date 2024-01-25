@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BottomPage.Master" AutoEventWireup="true" CodeBehind="Package.aspx.cs" Inherits="WebformsDemo.Package" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BottomPage.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="WebformsDemo.Gallery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
