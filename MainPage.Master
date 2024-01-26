@@ -4,6 +4,7 @@
 
 
 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <%--bura nese gelir.--%>
 </asp:ContentPlaceHolder>
 
 
