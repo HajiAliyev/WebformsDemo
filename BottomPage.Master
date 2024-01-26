@@ -76,7 +76,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="Default.aspx">
                                         <img src="assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
@@ -138,7 +138,8 @@
         <!-- slider Area End-->
 
         <!-- Favourite Places Start -->
-        <div class="favourite-place place-padding">
+        <%--<div class="favourite-place place-padding blog_area section-padding">--%>
+        <div class="blog_area section-padding favourite-place place-padding">
             <div class="container">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
                     <!-- Section Tittle -->
@@ -338,7 +339,7 @@
         <!-- Favourite Places End -->
 
         <!-- Pagination-area Start -->
-        <div class="pagination-area pb-100 text-center">
+        <%-- <div class="pagination-area pb-100 text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -356,7 +357,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <!-- Pagination-area End -->
     </main>
     <footer>
