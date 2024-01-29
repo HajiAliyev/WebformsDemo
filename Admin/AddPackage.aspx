@@ -31,12 +31,13 @@
                     </div>
                     <div class="form-group">
                         <label for="FileUpload">Fayl əlavə et (şəkil)</label>
+                        <input type="file" name="img[]" class="file-upload-default">
                         <asp:FileUpload ID="FileUpload" runat="server" CssClass="form-control file-upload-info" />
                     </div>
 
                     <div class="form-group">
                         <label for="txtDetail">Ətraflı</label>
-                        <asp:TextBox ID="txtDetail" runat="server" TextMode="MultiLine" Height="100" CssClass="form-control" placeholder="Ətraflı"></asp:TextBox>
+                        <asp:TextBox ID="txtDetail" runat="server" TextMode="MultiLine" Height="100px" CssClass="form-control" placeholder="Ətraflı"></asp:TextBox>
                     </div>
 
                     <%--<div class="form-group">

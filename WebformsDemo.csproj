@@ -105,6 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AboutUs.aspx" />
     <Content Include="Admin\AddPackage.aspx" />
     <Content Include="Admin\assets\css\style.css" />
     <Content Include="Admin\assets\images\dashboard\circle.png" />
@@ -168,7 +169,14 @@
     <Content Include="Admin\assets\vendors\css\vendor.bundle.base.css" />
     <Content Include="Admin\assets\vendors\js\vendor.bundle.base.js" />
     <Content Include="Admin\assets\vendors\mdi\css\materialdesignicons.min.css" />
+    <Content Include="Admin\BlogAdd.aspx" />
+    <Content Include="Admin\BlogCategory.aspx" />
+    <Content Include="Admin\BlogEditOrRemove.aspx" />
     <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\GaleryAddOrRemove.aspx" />
+    <Content Include="Admin\GaleryCategory.aspx" />
+    <Content Include="Admin\PackageAddOrRemove.aspx" />
+    <Content Include="Admin\Settings.aspx" />
     <Content Include="assets\css\animate.min.css" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\flaticon.css" />
@@ -494,6 +502,13 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AddPackage.aspx.cs">
       <DependentUpon>AddPackage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -508,12 +523,61 @@
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\BlogAdd.aspx.cs">
+      <DependentUpon>BlogAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BlogAdd.aspx.designer.cs">
+      <DependentUpon>BlogAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BlogCategory.aspx.cs">
+      <DependentUpon>BlogCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BlogCategory.aspx.designer.cs">
+      <DependentUpon>BlogCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BlogEditOrRemove.aspx.cs">
+      <DependentUpon>BlogEditOrRemove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BlogEditOrRemove.aspx.designer.cs">
+      <DependentUpon>BlogEditOrRemove.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GaleryAddOrRemove.aspx.cs">
+      <DependentUpon>GaleryAddOrRemove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GaleryAddOrRemove.aspx.designer.cs">
+      <DependentUpon>GaleryAddOrRemove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GaleryCategory.aspx.cs">
+      <DependentUpon>GaleryCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GaleryCategory.aspx.designer.cs">
+      <DependentUpon>GaleryCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PackageAddOrRemove.aspx.cs">
+      <DependentUpon>PackageAddOrRemove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PackageAddOrRemove.aspx.designer.cs">
+      <DependentUpon>PackageAddOrRemove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />

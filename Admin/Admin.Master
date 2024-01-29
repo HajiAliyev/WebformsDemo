@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <title>Gotrip Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -28,7 +28,9 @@
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="Default.aspx">
-                    <img src="assets/images/logo.svg" alt="logo" /></a>
+                    <%--<img src="assets/images/logo.svg" alt="logo" />--%>
+                    <h3>GoTrip</h3>
+                </a>
                 <a class="navbar-brand brand-logo-mini" href="Default.aspx">
                     <img src="assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
@@ -195,14 +197,13 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Default.aspx">
-                            <%--<span class="menu-title">Dashboard</span>--%>
                             <span class="menu-title">Əsas səhifə</span>
+                            <i class="menu-arrow"></i>
                             <i class="mdi mdi-home menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        
-                        <a class="nav-link"<%-- data-bs-toggle="collapse"--%> href="AddPackage.aspx" <%--aria-expanded="false" aria-controls="ui-basic"--%>>
+                        <a class="nav-link" <%-- data-bs-toggle="collapse"--%> href="AddPackage.aspx" <%--aria-expanded="false" aria-controls="ui-basic"--%>>
                             <%--<span class="menu-title">Basic UI Elements</span>--%>
                             <span class="menu-title">Paket əlavə et</span>
                             <i class="menu-arrow"></i>
@@ -215,33 +216,85 @@
                             </ul>
                         </div>--%>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/icons/mdi.html">
-                            <span class="menu-title">Icons</span>
+                        <a class="nav-link" href="AboutUs.aspx">
+                            <span class="menu-title">Haqqımızda</span>
+                            <i class="menu-arrow"></i>
+                            <i class="mdi mdi-table-large menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="PackageAddOrRemove.aspx">
+                            <span class="menu-title">Paket Dəyişdir/Sil</span>
+                            <i class="menu-arrow"></i>
+                            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BlogCategory.aspx">
+                            <span class="menu-title">Blog Kateq. Artır/Sil</span>
+                            <i class="menu-arrow"></i>
                             <i class="mdi mdi-contacts menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/forms/basic_elements.html">
-                            <span class="menu-title">Forms</span>
-                            <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+                        <a class="nav-link" href="BlogAdd.aspx">
+                            <span class="menu-title">Blog Əlavə Et</span>
+                            <i class="menu-arrow"></i>
+                            <i class="mdi mdi-contacts menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/charts/chartjs.html">
-                            <span class="menu-title">Charts</span>
-                            <i class="mdi mdi-chart-bar menu-icon"></i>
+                        <a class="nav-link" href="BlogEditOrRemove.aspx">
+                            <span class="menu-title">Blog Dəyişdir/Sil</span>
+                            <i class="mdi mdi-contacts menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/tables/basic-table.html">
-                            <span class="menu-title">Tables</span>
+                        <a class="nav-link" href="GaleryCategory.aspx">
+                            <span class="menu-title">Qalereya Kateqoriya</span>
+                            <i class="menu-arrow"></i>
                             <i class="mdi mdi-table-large menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="GaleryAddOrRemove.aspx">
+                            <span class="menu-title">Qalereya Şəkil Artır/Sil</span>
+                            <i class="menu-arrow"></i>
+                            <i class="mdi mdi-chart-bar menu-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Settings.aspx">
+                            <span class="menu-title">Tənzimləmələr</span>
+                            <i class="menu-arrow"></i>
+                            <i class="mdi mdi-medical-bag menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <%--<li class="nav-item">
+                        <a class="nav-link" href="pages/forms/basic_elements.html">
+                            <span class="menu-title">Forms</span>
+                            <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+                        </a>
+                    </li>--%>
+                    <%--<li class="nav-item">
+                        <a class="nav-link" href="pages/charts/chartjs.html">
+                            <span class="menu-title">Charts</span>
+                            <i class="mdi mdi-chart-bar menu-icon"></i>
+                        </a>
+                    </li>--%>
+                    <%--<li class="nav-item">
+                        <a class="nav-link" href="pages/tables/basic-table.html">
+                            <span class="menu-title">Tables</span>
+                            <i class="mdi mdi-table-large menu-icon"></i>
+                        </a>
+                    </li>--%>
+                    <%--<li class="nav-item">
                         <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
-                            <span class="menu-title">Sample Pages</span>
+                            <span class="menu-title">Tənzimləmələr</span>
                             <i class="menu-arrow"></i>
                             <i class="mdi mdi-medical-bag menu-icon"></i>
                         </a>
@@ -254,8 +307,8 @@
                                 <li class="nav-item"><a class="nav-link" href="pages/samples/error-500.html">500 </a></li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="nav-item sidebar-actions">
+                    </li>--%>
+                    <%--<li class="nav-item sidebar-actions">
                         <span class="nav-link">
                             <div class="border-bottom">
                                 <h6 class="font-weight-normal mb-3">Projects</h6>
@@ -271,7 +324,7 @@
                                 </ul>
                             </div>
                         </span>
-                    </li>
+                    </li>--%>
                 </ul>
             </nav>
             <!-- partial -->
